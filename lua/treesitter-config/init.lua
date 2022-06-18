@@ -4,7 +4,10 @@ require'nvim-treesitter.configs'.setup {
 
   -- Install parsers synchronously (only applied to `ensure_installed`)
   sync_install = false,
-
+  -- autopairs enabled
+  autopairs = {
+    enable = true,
+    },
   -- List of parsers to ignore installing (for "all")
   ignore_install = { },
 
@@ -17,7 +20,7 @@ require'nvim-treesitter.configs'.setup {
     -- the name of the parser)
     -- list of language that will be disabled
     -- disable = { "css", "html", },
-    disable = {},
+    disable = { "html", "css" },
 
     -- Setting this to true will run `:h syntax` and tree-sitter at the same time.
     -- Set this to `true` if you depend on 'syntax' being enabled (like for indentation).

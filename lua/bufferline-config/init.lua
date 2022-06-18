@@ -6,5 +6,5 @@ require("bufferline").setup{
     diagnostics = false,
     offsets = {{filetype = "NvimTree", text = " ", padding = 1 }},
     separator_style = "thin",
- }  
+ }
 }

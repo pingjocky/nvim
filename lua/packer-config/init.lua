@@ -9,6 +9,7 @@ return require'packer'.startup(function()
     use 'nvim-lualine/lualine.nvim'
     use 'akinsho/bufferline.nvim'
     use 'sainnhe/sonokai'
+    use 'windwp/nvim-autopairs'
 
     -- Nvim cpm auto complete
     use 'hrsh7th/nvim-cmp'
